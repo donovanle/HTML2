@@ -1,0 +1,99 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+#container{
+    margin: 0 auto;
+    width: 1000px;
+}
+.bar{
+    background-color: #9fc5f8;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    height:75px;
+}
+h1{
+    color:white;
+    font-size:50px;
+}
+.bar ul{
+    list-style: none;
+    display:flex;
+    gap:100px;
+}
+li{
+    color:white;
+    font-size: 25px;
+    font-weight:bold;
+}
+
+.sanjose{
+    height:75px;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    border-bottom: 2px solid grey;
+}
+.sanjose h2{
+    margin-left:70px;
+    font-size:40px;
+
+}
+.rightjose{
+    display: flex;
+    align-items:center;
+    gap:20px;
+}
+
+img{
+    height: 100px;
+    border-radius: 50%;
+}
+.days{
+    margin-top: 10px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.today, .tommorow, .friday, .saturday{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightgrey;
+    height:200px;
+    width: 150px;
+}
+.weathers{
+    display:flex;
+    justify-content: space-around;
+    gap:20px;
+}
+.one{
+    color:blue;
+}
+.two{
+    color:red;
+}
+
+#cookietime{
+    margin-left: 200px;;
+    position: fixed;
+    bottom: 200px;
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    gap:30px;
+    
+}
+.middlecookie p{
+    width: 400px;
+}
+
+button{
+    background-color:#9fc5f8;
+    padding:3px 5px;
+    margin:0px 10px;
+    border:3px solid black;
+}

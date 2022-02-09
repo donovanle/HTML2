@@ -1,0 +1,94 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Top Header On Page*/
+.tophead{
+    height:50px;
+    background-color: grey;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:0px 300px;
+}
+/*Top Left Dojonary Title*/
+.toptitle{
+    margin-left:20px;
+}
+/*Login Button*/
+.loginbutton{
+    margin-right:20px;
+    background-color: blue;
+    color: white;
+    padding:2px 5px;
+    border: 2px solid black;
+}
+/*Seacrh Bar*/
+#searchbar{
+    border:3px solid black;
+}
+/*Bottom Half*/
+.bottom{
+    display:flex;
+}
+/*Left Column*/
+.leftcolumn{
+    display: flex;
+    flex-direction: column;
+    height:900px;
+    flex:3;
+}
+/*Right Column*/
+.rightcolumn{
+    height:900px;
+    flex:2;
+}
+/*Left Top Box and bottom box*/
+.topbox, .bottombox{
+    border:3px solid black;
+    margin:20px 20px 20px 300px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    padding:20px 0px;
+}
+/*left side of the top and bottom box*/
+.leftbox{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*Paragraph in top left box*/
+.example{
+    width:235px;
+    font-size: 20px;
+}
+.farrightbox{
+    border: 3px solid black;
+    margin:20px 300px 0px 0px;
+    height:100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+/*Far right box paragraph*/
+.youdojo{
+    width:180px;
+}
+.addbutton{
+    background-color: greenyellow;
+    padding:3px 20px;
+}
+.likesbutton{
+    background-color: yellow;
+    padding: 3px 10px;
+    margin-top: 20px;
+}
+h2{
+    font-size: 50px;
+}
+.nouns{
+    font-style: italic;
+}

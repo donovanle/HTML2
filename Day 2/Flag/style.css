@@ -1,0 +1,18 @@
+.yellow{
+    width:450px;
+    height:450px;
+    background-color:yellow;
+}
+.blue{
+    width:200px;
+    height:200px;
+    background-color: blue;
+    display: inline-block;
+}
+#one, #three{
+    margin-right:40px;
+}
+
+#one, #two{
+    margin-bottom:40px;
+}

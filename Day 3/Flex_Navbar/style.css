@@ -1,0 +1,32 @@
+.nav{
+    background-color: black;
+    color:white;
+    height:50px;
+    width:1000px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links{
+    display:flex;
+    align-items: center;
+    list-style: none;
+
+}
+
+a{
+    color:white;
+    text-decoration: none;
+    margin:10px;
+}
+.btn{
+    margin:10px;
+    background-color:blue;
+    color:white;
+    border: 3px solid black;
+    box-shadow:3px 3px black;
+}
+.nav-title{
+    margin:20px;
+}

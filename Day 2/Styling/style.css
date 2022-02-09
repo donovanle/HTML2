@@ -1,0 +1,24 @@
+h1 {
+    color:white;
+    background-color:black;
+    text-align: left;
+}
+
+h2{
+    color:white;
+    background-color: purple;
+    text-align: center;
+    font-style: italic;
+}
+
+h3{
+    color:black;
+    background-color: cadetblue;
+    text-align: right;
+    text-decoration:underline;
+    font-weight: normal;
+}
+
+.blueCloud{
+    color:cyan;
+}

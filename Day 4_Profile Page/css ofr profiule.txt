@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.topbar{
+    background-color: black;
+    height:50px;
+    display:flex;
+    align-items: center;
+}
+.left{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    flex:1;
+}
+.middle{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex:1;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+li{
+    margin-left:20px;
+}
+.right{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+.signout{
+    background-color: cyan;
+    padding:5px 10px 5px 10px;
+    border: 0px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+h1, li{
+    color: white;
+}
+.bottomhalf{
+    width: 100%;
+    height: 100%;
+    display:flex;
+}
+.leftcolumn{
+    height:750px;
+    flex:2;
+    background-color: blanchedalmond;
+    display:flex;
+    flex-direction: column;
+}
+.rightcolumn{
+    height:750px;
+    flex:1;
+    background-color: blanchedalmond;
+    display:flex;
+    flex-direction: column;
+}
+.profilebox{
+    flex:2;
+    margin:25px 25px 25px 100px;
+    background-color: cyan;
+}
+.educationbox{
+    flex:1;
+    margin:25px 25px 25px 100px;
+    background-color: blanchedalmond;
+}
+.educationbar{
+    height:50px;
+    background-color: black;
+    border:2px solid grey;
+    color:white;
+    display: flex;
+    align-items: center;
+}
+#edlabel{
+    margin-left:60px;
+}
+.educationbody{
+    height:150px;
+    background-color: white;
+    border:2px solid grey;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left:60px;
+}
+
+
+
+
+
+
+
+
+.bluebox{
+    height:100px;
+    background-color: cyan;
+    border:2px solid grey;
+}
+.whitebox{
+    height: 350px;
+    background-color: white;
+    border:2px solid grey;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left:60px;
+}
+.requests{
+    background-color: blanchedalmond;
+    flex:1;
+    margin:25px 100px 25px 25px;
+}
+.requeststop{
+    height:50px;
+    background-color: black;
+    border:2px solid grey;
+}
+.requestsbottom{
+    height:175px;
+    background-color: white;
+    border:2px solid grey;
+}
+.friends{
+    background-color: purple;
+    flex:2;
+    margin:25px 100px 25px 25px;
+}
+.friendstop{
+    height:50px;
+    background-color: black;
+    border:2px solid grey;
+}
+.friendsbottom{
+    height:375px;
+    background-color: white;
+    border:2px solid grey;
+}
+.biography{
+    width:500px;
+}
+.profilename{
+    font-size:35px;
+    margin-top:20px;
+}
+.profilelocation, .biography, .editprofile{
+    font-size: 30px;
+}
+.editprofile{
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.profilelocation{
+    display: flex;
+    align-items: center;
+}
+img{
+    height:25px;
+}
+.denvercity, .editgear{
+    margin-left:10px;
+}

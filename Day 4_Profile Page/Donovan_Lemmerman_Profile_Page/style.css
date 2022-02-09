@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.topbar{
+    background-color: black;
+    height:50px;
+    display:flex;
+    align-items: center;
+}
+.left{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    flex:1;
+}
+.middle{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex:1;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+li{
+    margin-left:20px;
+}
+.right{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+.signout{
+    background-color: cyan;
+    padding:5px 10px 5px 10px;
+    border: 0px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+h1, li{
+    color: white;
+}
+.bottomhalf{
+    width: 100%;
+    height: 100%;
+    display:flex;
+}
+.leftcolumn{
+    height:750px;
+    flex:2;
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+}
+.rightcolumn{
+    height:750px;
+    flex:1;
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+}
+.profilebox{
+    flex:2;
+    margin:25px 25px 25px 100px;
+    background-color: cyan;
+}
+
+.mainpicture{
+    height:80px;
+    position: absolute;
+    top:140px;
+    border:2px solid grey;
+    border-radius: 50%;
+}
+
+.educationbox{
+    flex:1;
+    margin:25px 25px 25px 100px;
+    background-color: white;
+}
+.educationbar{
+    height:50px;
+    background-color: black;
+    border:2px solid grey;
+    color:white;
+    display: flex;
+    align-items: center;
+}
+#edlabel{
+    margin-left:60px;
+}
+.educationbody{
+    height:150px;
+    background-color: white;
+    border:2px solid grey;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left:60px;
+}
+.bluebox{
+    height:100px;
+    background-color: cyan;
+    border:2px solid grey;
+}
+.whitebox{
+    height: 350px;
+    background-color: white;
+    border:2px solid grey;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left:60px;
+}
+.requests{
+    background-color: blanchedalmond;
+    flex:1;
+    margin:25px 100px 25px 25px;
+}
+.requeststop{
+    height:50px;
+    background-color: black;
+    border:2px solid grey;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.requestsbottom{
+    height:175px;
+    background-color: white;
+    border:2px solid grey;
+    display: flex;
+    flex-direction: column;
+}
+.friends{
+    background-color: purple;
+    flex:2;
+    margin:25px 100px 25px 25px;
+}
+.friendstop{
+    height:50px;
+    background-color: black;
+    border:2px solid grey;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.friendsbottom{
+    height:375px;
+    background-color: white;
+    border:2px solid grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around ;
+}
+.biography{
+    width:500px;
+}
+.profilename{
+    font-size:35px;
+    margin-top:20px;
+}
+.profilelocation, .biography, .editprofile{
+    font-size: 30px;
+}
+.editprofile{
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.profilelocation{
+    display: flex;
+    align-items: center;
+}
+#mapicon, #gearicons, .topleftreq{
+    height:25px;
+}
+.denvercity, .editgear{
+    margin-left:10px;
+}
+#toddbox, #philbox{
+    height:50%;
+    display: flex;
+    align-items: center;
+}
+
+#lefttodd, .leftphil{
+    flex:1;
+}
+#middletodd, .middlephil{
+    flex:3
+}
+#righttodd, .rightphil{
+    flex:2;
+    display: flex;
+    align-items: center;
+}
+/* ALl profile pics here */
+.toddpic, .philpic, #adriann, #annee, #alaynee, #arryy{
+    border-radius:50%;
+    border: 3px solid black;
+    height:60px;
+    margin:10px;
+}
+#checkmarktodd, #xbuttontodd{
+    height:40px;
+    border-radius:50%;
+    border: 3px solid black;
+    margin-right:10px;
+}
+#checkmarkphil, #xbuttonphil{
+    height:40px;
+    border-radius:50%;
+    border: 3px solid black;
+    margin-right:10px;
+}
+.topleftfriend{
+    height:25px;
+}
+#labelcon{
+    color:white;
+}
+.adrien, .anne, .alayne, .arry, .veiwmore{
+    display:flex;
+    align-items: center;
+}
+.veiwmore{
+    border: 2px solid grey;
+}
+#viewm{
+    margin-left:10px;
+}

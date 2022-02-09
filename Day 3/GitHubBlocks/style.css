@@ -1,0 +1,41 @@
+
+.githubblocks{
+    text-align:center;
+}
+
+div{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    margin:20px;
+}
+
+.first{
+    background-color:aqua;
+}
+
+img{
+    width:200px;
+    height:200px;
+    margin:20px;
+}
+
+.second{
+    background-color:pink;
+}
+
+.third{
+    background-color:white;
+}
+.main{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:900px;
+}
+.page{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:900px;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div class="bar">
+            <h1>DojoWeather</h1>
+            <ul>
+                <li onclick="loading(this)">Burbank</li>
+                <li onclick="loading(this)">Chicago</li>
+                <li onclick="loading(this)">Dallas</li>
+            </ul>
+        </div>
+        <main>
+            <div class="sanjose">
+                <h2>San Jose</h2>
+                <div class="rightjose">
+                    <p>Show Temperature in</p>
+                    <select onchange="toCalciuss()" id="dropDownMenu">
+                        <option value="fr">°F</option>
+                        <option value="cel">°C</option>
+                    </select>
+                </div>
+            </div>
+            <div class="days">
+                <div class="today">
+                    <h2>Today</h2>
+                    <img src="some_rain.png" alt="">
+                    <p>some rain</p>
+                    <div class="weathers">
+                        <p class="one" id="blueT">75°</p>
+                        <p class="two" id="redT">65°</p>
+                    </div>
+                </div>
+                <div class="tommorow">
+                    <h2>Tommorow</h2>
+                    <img src="some_sun.png" alt="">
+                    <p>some sun</p>
+                    <div class="weathers">
+                        <p class="one" id="blueTo">80°</p>
+                        <p class="two" id="redTo">66°</p>
+                    </div>
+                </div>
+                <div class="friday">
+                    <h2>Friday</h2>
+                    <img src="some_clouds.png" alt="">
+                    <p>some clouds</p>
+                    <div class="weathers">
+                        <p class="one" id="blueF">69°</p>
+                        <p class="two" id="redF">61°</p>
+                    </div>
+                </div>
+                <div class="saturday">
+                    <h2>Saturday</h2>
+                    <img src="some_sun.png" alt="">
+                    <p>some suns</p>
+                    <div class="weathers">
+                        <p class="one" id="blueS">78°</p>
+                        <p class="two" id="redS">70°</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <div id="cookietime">
+            <img src="cookie.png" alt="">
+            <div class="middlecookie">
+                <h2>Stop! Cookie time</h2>
+                <p>We use cookies (sadly not the edible ones) to personalize contents and ads, to provide socxail media features and to analyse our traffic. Read more...</p>
+            </div>
+            <button onclick="cookieRemover()">I Accept</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

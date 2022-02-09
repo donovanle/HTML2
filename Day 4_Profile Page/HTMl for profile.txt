@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="topbar">
+        <div class="left">
+            <h1>Profile</h1>
+        </div>
+        <div class="middle">
+            <ul>
+                <li>Home</li>
+                <li>My Profile</li>
+                <li>Find Connections</li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="signout">Sign Out</button>
+        </div>
+    </div>
+    <div class="bottomhalf">
+        <div class="leftcolumn">
+            <div class="profilebox">
+                <div class="bluebox"></div>
+                <div class="whitebox">
+                    <div class="profilename">
+                        <h2>Donovan Lemmerman</h2>
+                    </div>
+                    <div class="profilelocation">
+                        <img src="map-marker.png" alt="map">
+                        <p class="denvercity">Denver</p>
+                    </div>
+                    <div class="biography">
+                        <p>Developer | Enginner | Problem Solver Master of shadows and the internet!</p>
+                    </div>
+                    <div class="editprofile">
+                        <img src="gear.png" alt="gear">
+                        <p class="editgear"><a href="#">edit profile</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="educationbox">
+                <div class="educationbar">
+                    <h2 id="edlabel">Education</h2>
+                </div>
+                <div class="educationbody">
+                    <div class="codingdojo">
+                        <h2>Coding Dojo - Full Stack Bootcamp</h2>
+                    </div>
+                    <div class="dates">
+                        <p>Dec 2019 - Mar 2020</p>
+                    </div>
+                    <div class="learning">
+                        <p>Triple black belt in Python, MERN, and C#...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="rightcolumn">
+            <div class="requests">
+                <div class="requeststop"></div>
+                <div class="requestsbottom"></div>
+            </div>
+            <div class="friends">
+                <div class="friendstop"></div>
+                <div class="friendsbottom"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
